@@ -43,6 +43,7 @@ const MoviesGrid = () => {
   const filteredMovies = movies.filter(movie => {
     return movie.type.toLowerCase().includes(filterType.toLowerCase()) &&
            movie.releaseYear.toString().includes(searchTerm.toString())||
+           movie.type.toLowerCase().includes(filterType.toLowerCase()) &&
            movie.title.toLowerCase().includes(searchTerm.toLowerCase())
   });
 
