@@ -7,8 +7,8 @@ This project is a frontend application built with React for displaying movie car
 To get started with the project, clone this repository:
 
 ```bash
-git clone https://github.com/meriemelm/movies-cards-front.git
-cd movies-cards-front
+git clone https://github.com/meriemelm/movies-cards-f.git
+cd movies-cards-f
 
 ## Installation
 npm install
