@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Card = styled.div`
- width: 200px;
+ width: 220px;
+ height: 350px;
   background-color: #fff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -19,26 +20,26 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 190px;
   border-bottom: 1px solid #ddd;
 `;
 
 const Title = styled.h3`
   margin: 0;
-  padding: 8px 0;
+  padding: 6px 0;
  font-family: 'Lobster', cursive;
 `;
 
 const Description = styled.p`
-  font-size: 14px;
+  font-size: 10px;
   color: #555;
   font-family: 'Lobster', cursive;
 `;
 
 const Type = styled.span`
   display: block;
-  font-size: 12px;
+  font-size: 10px;
   color: #aaa;
   font-family: 'Lobster', cursive;
 `;
